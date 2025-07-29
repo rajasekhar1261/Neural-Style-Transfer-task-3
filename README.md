@@ -28,10 +28,10 @@ Transfering style gives beautiful artistic results:
 
 And here are some results coupled with their style:
 
-<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/f2609203-ceac-415c-bc2c-7da8f098a10e" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/8a69fbfb-dc7d-449d-8c9f-21c0d795da1c" />
-<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/67e65a55-049e-4a8d-8563-6d32d60f3611" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/19cb5abb-66c3-4dad-ab7d-70014740f106" />
-<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/cdf0645b-1114-4403-b747-e5260243721a" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/480994f5-fb18-4cce-be26-8d3e594a145e" />
-<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/2a922fb0-ad62-4dd5-af81-909f7863fe04" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/631c67ca-158c-4275-894b-05a5babe4b8c" />
+<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/f2609203-ceac-415c-bc2c-7da8f098a10e" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/8a69fbfb-dc7d-449d-8c9f-21c0d795da1c" />
+<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/67e65a55-049e-4a8d-8563-6d32d60f3611" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/19cb5abb-66c3-4dad-ab7d-70014740f106" />
+<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/cdf0645b-1114-4403-b747-e5260243721a" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/480994f5-fb18-4cce-be26-8d3e594a145e" />
+<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/2a922fb0-ad62-4dd5-af81-909f7863fe04" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/631c67ca-158c-4275-894b-05a5babe4b8c" />
 
 Note: all of the stylized images were produced by me (using this repo), credits for original image artists are given bellow.
 
@@ -40,7 +40,7 @@ Note: all of the stylized images were produced by me (using this repo), credits 
 Changing style weight gives you less or more style on the final image, assuming you keep the content weight constant.
 I did increments of 10 here for style weight (1e1, 1e2, 1e3, 1e4), while keeping content weight at constant 1e5, and I used random image as initialization image.
 
-<img width="350" height="233" alt="image" src="https://github.com/user-attachments/assets/9daf69d8-9f0d-45ea-981f-7aef1322db58" /> <img width="350" height="233" alt="image" src="https://github.com/user-attachments/assets/24b67cf2-4bbf-4d47-8eab-3e19ef9e3aef" /> <img width="350" height="233" alt="image" src="https://github.com/user-attachments/assets/a2df3c4c-8a2e-46bf-98c5-409785d38238" /> <img width="350" height="233" alt="image" src="https://github.com/user-attachments/assets/c4fc4551-ecd9-483d-ba2c-adca1b46baf2" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/9daf69d8-9f0d-45ea-981f-7aef1322db58" /> <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/24b67cf2-4bbf-4d47-8eab-3e19ef9e3aef" /> <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/a2df3c4c-8a2e-46bf-98c5-409785d38238" /> <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/c4fc4551-ecd9-483d-ba2c-adca1b46baf2" />
 
 # Impact of total variation (tv) loss
 
