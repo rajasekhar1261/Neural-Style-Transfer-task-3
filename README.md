@@ -1,25 +1,31 @@
 # Neural Style Transfer (optimization method) 💻 + 🎨 = ❤️
 
-This repo contains a concise PyTorch implementation of the original NST paper (:link: # Gatys et al.).
+This repo contains a concise PyTorch implementation of the original NST paper (:link: Gatys et al.).
 
-It's an accompanying repository for # this video series on YouTube.
+It's an accompanying repository for this video series on YouTube.
 
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/4b41efe2-1227-4ca6-9dc7-687e04931ec1" />
 
-What is NST algorithm?
+# What is NST algorithm?
+
 The algorithm transfers style from one input image (the style image) onto another input image (the content image) using CNN nets (usually VGG-16/19) and gives a composite, stylized image out which keeps the content from the content image but takes the style from the style image.
 
- 
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/9244cb6f-f11a-4fd8-9f98-42f64156a9f4" />
+<img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/7b33caee-eb17-4a00-b8a8-d085275b2d8a" />
+<img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/e600afc8-3b94-4534-a286-a09ad9b59b12" />
 
-Why yet another NST repo?
+# Why yet another NST repo?
+
 It's the cleanest and most concise NST repo that I know of + it's written in PyTorch! ❤️
 
 Most of NST repos were written in TensorFlow (before it even had L-BFGS optimizer) and torch (obsolete framework, used Lua) and are overly complicated often times including multiple functionalities (video, static image, color transfer, etc.) in 1 repo and exposing 100 parameters over command-line (out of which maybe 5 or 6 may actually be used on a regular basis).
 
-Examples
+# Examples
+
 Transfering style gives beautiful artistic results:
 
-     
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/3fcf5ebd-7fd9-45e7-bfc2-dbeb93547edc" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/23eef2a6-f67d-409e-aafd-2b9c6a42f157" /> <img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/43aaf45c-1b73-4fe5-84b5-4c04cc4f7f73" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4bbe066b-fd90-42bc-aad9-0ff657a0ca80" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/9610eb64-e6de-4c2b-9716-af3a0f7b632a" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4226ac16-bb0e-409d-8a61-bcc724fa2826" />     
 
 And here are some results coupled with their style:
 
