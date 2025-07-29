@@ -12,8 +12,8 @@ alt="NST Intro" width="480" height="360" border="10" /></a>
 The algorithm transfers style from one input image (the style image) onto another input image (the content image) using CNN nets (usually VGG-16/19) and gives a composite, stylized image out which keeps the content from the content image but takes the style from the style image.
 
 <p align="center">
-<img src="data/examples/bridge/green_bridge_vg_la_cafe_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="570"/>
-<img src="data/examples/bridge/content_style.jpg" width="260"/>
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/23125073-7480-4096-8ce6-139a16df023c" />
+<img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/e907eaa1-7696-42f3-8d00-114808e57a4d" />
 </p>
 
 ### Why yet another NST repo?
@@ -26,29 +26,29 @@ Most of NST repos were written in TensorFlow (before it even had L-BFGS optimize
 Transfering style gives beautiful artistic results:
 
 <p align="center">
-<img src="data/examples/bridge/green_bridge_vg_starry_night_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/bridge/green_bridge_edtaonisl_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/bridge/green_bridge_wave_crop_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
+<img width="270" height="333" alt="image" src="https://github.com/user-attachments/assets/14985e3e-733a-45ad-8c42-4677b8f5ab76" />
+<img width="270" height="333" alt="image" src="https://github.com/user-attachments/assets/97d86618-d2fc-4678-8944-75ceb770121e" />
+<img width="270" height="333" alt="image" src="https://github.com/user-attachments/assets/a012f5df-b72d-43aa-ae0c-f7df7198f837" />
 
-<img src="data/examples/lion/lion_candy_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/lion/lion_edtaonisl_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/lion/lion_vg_la_cafe_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
+<img width="270" height="400" alt="image" src="https://github.com/user-attachments/assets/7bac308d-be77-4652-a741-49b2bac967d4" />
+<img width="270" height="400" alt="image" src="https://github.com/user-attachments/assets/1f371dd2-60db-4745-8ee7-71a10750752f" />
+<img width="270" height="400" alt="image" src="https://github.com/user-attachments/assets/445ad6a1-bdcb-4206-b923-68ed1525f583" />
 </p>
 
 And here are some results coupled with their style:
 
 <p align="center">
-<img src="data/examples/figures/figures_ben_giles_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="400px">
-<img src="data/style-images/ben_giles.jpg" width="267px">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/7229f57d-bfe8-4349-9bd9-ff58a489a421" />
+<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/6f57dd18-3262-4a32-9bd4-ecd59713bb3f" />
 
-<img src="data/examples/figures/figures_wave_crop_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="400px">
-<img src="data/style-images/wave_crop.jpg" width="267px">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/e853a6e5-5012-4c3e-a6b1-f32d5237aa19" />
+<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/cff8ab44-3669-47f6-a1b3-9eecb33ffb11" />
 
-<img src="data/examples/figures/figures_vg_wheat_field_w_350_m_vgg19_cw_100000.0_sw_300000.0_tv_1.0_resized.jpg" width="400px">
-<img src="data/style-images/vg_wheat_field_cropped.jpg" width="267px">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/b75fa45d-298f-4e7e-a4a7-af10140ebc5f" />
+<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/86004ebf-3374-4059-83b9-7d4453d70d9e" />
 
-<img src="data/examples/figures/figures_vg_starry_night_w_350_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="400px">
-<img src="data/style-images/vg_starry_night_resized.jpg" width="267px">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/8bfaba48-e26e-4e09-8155-533ffac9cdae" />
+<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/26977fae-8961-466b-83a4-199571d24e83" />
 </p>
 
 *Note: all of the stylized images were produced by me (using this repo), credits for original image artists [are given bellow](#acknowledgements).*
@@ -59,10 +59,10 @@ Changing style weight gives you less or more style on the final image, assuming 
 I did increments of 10 here for style weight (1e1, 1e2, 1e3, 1e4), while keeping content weight at constant 1e5, and I used random image as initialization image. 
 
 <p align="center">
-<img src="data/examples/style-tradeoff/figures_vg_starry_night_o_lbfgs_i_random_h_352_m_vgg19_cw_100000.0_sw_10.0_tv_1.0_resized.jpg" width="200px">
-<img src="data/examples/style-tradeoff/figures_vg_starry_night_o_lbfgs_i_random_h_352_m_vgg19_cw_100000.0_sw_100.0_tv_1.0_resized.jpg" width="200px">
-<img src="data/examples/style-tradeoff/figures_vg_starry_night_o_lbfgs_i_random_h_352_m_vgg19_cw_100000.0_sw_1000.0_tv_1.0_resized.jpg" width="200px">
-<img src="data/examples/style-tradeoff/figures_vg_starry_night_o_lbfgs_i_random_h_352_m_vgg19_cw_100000.0_sw_10000.0_tv_1.0_resized.jpg" width="200px">
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/26e08abe-c682-462b-b9f0-e6a20761d7a9" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/f4c332bb-e2fc-4715-bc85-358547f4a10d" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/6e8c56c5-0355-4ecd-a5d5-139a0ac845df" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/18ebdd7c-4097-40d4-8e0c-f8ee5e029bff" />
 </p>
 
 ### Impact of total variation (tv) loss
@@ -71,10 +71,11 @@ Rarely explained, the total variation loss i.e. it's corresponding weight contro
 I also did increments of 10 here (1e1, 1e4, 1e5, 1e6) and I used content image as initialization image.
 
 <p align="center">
-<img src="data/examples/tv-tradeoff/figures_candy_o_lbfgs_i_content_h_350_m_vgg19_cw_100000.0_sw_30000.0_tv_10.0_resized.jpg" width="200px">
-<img src="data/examples/tv-tradeoff/figures_candy_o_lbfgs_i_content_h_350_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0_resized.jpg" width="200px">
-<img src="data/examples/tv-tradeoff/figures_candy_o_lbfgs_i_content_h_350_m_vgg19_cw_100000.0_sw_30000.0_tv_100000.0_resized.jpg" width="200px">
-<img src="data/examples/tv-tradeoff/figures_candy_o_lbfgs_i_content_h_350_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0_resized.jpg" width="200px">
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/258c4634-30fe-4dc9-a713-b9776239d85e" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/19cf1b07-3716-4e2b-9663-190ef7f30b61" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/1412a85f-ad59-4553-8edc-1076eb556439" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/0ae0a65c-de9f-44eb-ba79-e9e958daa19b" />
+
 </p>
 
 ### Optimization initialization
@@ -84,9 +85,9 @@ Empirically content image gives the best results as explored in [this research p
 Here you can see results for content, random and style initialization in that order (left to right):
 
 <p align="center">
-<img src="data/examples/init_methods/golden_gate_vg_la_cafe_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/init_methods/golden_gate_vg_la_cafe_o_lbfgs_i_random_h_500_m_vgg19_cw_100000.0_sw_1000.0_tv_1.0_resized.jpg" width="270px">
-<img src="data/examples/init_methods/golden_gate_vg_la_cafe_o_lbfgs_i_style_h_500_m_vgg19_cw_100000.0_sw_10.0_tv_0.1_resized.jpg" width="270px">
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/f18a44c4-0cd1-430d-b73f-8d990a692e9e" />
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/d2d66812-071f-4385-accb-cbd42686717d" />
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/451c68a9-8d9c-4023-a579-dbc70bb23742" />
 </p>
 
 You can also see that with style initialization we had some content from the artwork leaking directly into our output.
@@ -96,13 +97,13 @@ You can also see that with style initialization we had some content from the art
 Finally if I haven't included this portion you couldn't say that I've successfully reproduced the [original paper]((https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)) (laughs in Python):
 
 <p align="center">
-<img src="data/examples/gatys_reconstruction/tubingen.jpg" width="300px">
-<img src="data/examples/gatys_reconstruction/tubingen_shipwreck_o_lbfgs_i_random_h_400_m_vgg19_cw_100000.0_sw_200.0_tv_1.0_resized.jpg" width="300px">
-<img src="data/examples/gatys_reconstruction/tubingen_starry-night_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="300px">
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/649c158a-4b14-426e-92ca-04d55cc91379" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/db31bc78-dd32-49c4-b29f-2c414de04e75" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/2d91ff01-7a62-4a35-9ea5-eebdfd93ef29" />
 
-<img src="data/examples/gatys_reconstruction/tubingen_the_scream_o_lbfgs_i_random_h_400_m_vgg19_cw_100000.0_sw_300.0_tv_1.0.jpg" width="300px">
-<img src="data/examples/gatys_reconstruction/tubingen_seated-nude_o_lbfgs_i_random_h_400_m_vgg19_cw_100000.0_sw_2000.0_tv_1.0.jpg" width="300px">
-<img src="data/examples/gatys_reconstruction/tubingen_kandinsky_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="300px">
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/1a6c8505-6699-46d2-b707-4d2d43a37741" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/5f471630-a7e6-41bb-8a27-2b60852c435a" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/05bdb376-9b10-4ce2-93d1-f4b86658c0d7" />
 </p>
 
 I haven't give it much effort results can be much nicer.
@@ -112,10 +113,10 @@ I haven't give it much effort results can be much nicer.
 If we only use the content (perceptual) loss and try to minimize that objective function this is what we get (starting from noise):
 
 <p align="center">
-<img src="data/examples/content_reconstruction/0000.jpg" width="200px">
-<img src="data/examples/content_reconstruction/0026.jpg" width="200px">
-<img src="data/examples/content_reconstruction/0070.jpg" width="200px">
-<img src="data/examples/content_reconstruction/0509.jpg" width="200px">
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/f2e06e30-a8ea-4281-9292-c53b6d468da6" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/0afc75c0-f841-419a-9e1b-76ccca47f2e4" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/534eb209-5144-4d64-b2d4-aaf30c7801c6" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/a6039933-37a6-4e2f-a09d-aa196432cf70" />
 </p>
 
 In steps 0, 26, 70 and 509 of the L-BFGS numerical optimizer, using layer relu3_1 for content representation.<br/> 
@@ -126,10 +127,10 @@ Check-out [this section](#reconstruct-image-from-representation) if you want to 
 We can do the same thing for style (on the left is the original art image "Candy") starting from noise:
 
 <p align="center">
-<img src="data/examples/style_reconstruction/candy.jpg" width="200px">
-<img src="data/examples/style_reconstruction/0045.jpg" width="200px">
-<img src="data/examples/style_reconstruction/0129.jpg" width="200px">
-<img src="data/examples/style_reconstruction/0510.jpg" width="200px">
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/605fbf26-4725-4b69-bc2f-25db1b9a13be" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/d8fe4cda-54a8-4f5f-bbf9-b31742c9ab86" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/d268a62f-f64a-41df-800a-1a82e1b341c3" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/51387361-0a41-4035-991e-bcc4f07c6680" />
 </p>
 
 In steps 45, 129 and 510 of the L-BFGS using layers relu1_1, relu2_1, relu3_1, relu4_1 and relu5_1 for style representation.
@@ -161,7 +162,7 @@ Or take a look at [this accompanying YouTube video](https://www.youtube.com/watc
 
 Just run it! So that you can get something like this: :heart:
 <p align="center">
-<img src="data/examples/taj_mahal/taj_mahal_ben_giles_o_lbfgs_i_content_h_500_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="615px">
+<img width="719" height="500" alt="image" src="https://github.com/user-attachments/assets/2ab9f3f2-9611-4465-8fff-1abd1390ff2b" />
 </p>
 
 ### Debugging/Experimenting
@@ -190,10 +191,10 @@ And that's it! --should_visualize_representation if set to True will visualize t
 Here are some feature maps (relu1_1, VGG 19) as well as a Gram matrix (relu2_1, VGG 19) for Van Gogh's famous [starry night](https://en.wikipedia.org/wiki/The_Starry_Night):
 
 <p align="center">
-<img src="data/examples/fms_gram/fm_vgg19_relu1_1_0005_resized.jpg" width="200px">
-<img src="data/examples/fms_gram/fm_vgg19_relu1_1_0046_resized.jpg" width="200px">
-<img src="data/examples/fms_gram/fm_vgg19_relu1_1_0058_resized.jpg" width="200px">
-<img src="data/examples/fms_gram/gram_vgg19_relu2_1_0001.jpg" width="200px">
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/121e9e20-11c5-41ca-9d5a-1b3cc089a9fc" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/f92e8118-edc8-4a65-9fde-866a2ebdf294" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/53683f91-590f-4d17-8186-f536315082b6" />
+<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/420905e5-77f6-4c89-8ef8-e3eeaad3c9ca" />
 </p>
 
 No more dark magic.
