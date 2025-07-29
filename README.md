@@ -11,7 +11,7 @@ It's an accompanying repository for this video series on YouTube.
 The algorithm transfers style from one input image (the style image) onto another input image (the content image) using CNN nets (usually VGG-16/19) and gives a composite, stylized image out which keeps the content from the content image but takes the style from the style image.
 
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/9244cb6f-f11a-4fd8-9f98-42f64156a9f4" />
-<img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/7b33caee-eb17-4a00-b8a8-d085275b2d8a" /> <img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/e600afc8-3b94-4534-a286-a09ad9b59b12" />
+<img width="344" height="500" alt="image" src="https://github.com/user-attachments/assets/7b33caee-eb17-4a00-b8a8-d085275b2d8a" /> 
 
 # Why yet another NST repo?
 
