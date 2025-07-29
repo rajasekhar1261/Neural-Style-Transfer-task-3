@@ -28,10 +28,10 @@ Transfering style gives beautiful artistic results:
 
 And here are some results coupled with their style:
 
-<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/f2609203-ceac-415c-bc2c-7da8f098a10e" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/8a69fbfb-dc7d-449d-8c9f-21c0d795da1c" />
-<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/67e65a55-049e-4a8d-8563-6d32d60f3611" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/19cb5abb-66c3-4dad-ab7d-70014740f106" />
-<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/cdf0645b-1114-4403-b747-e5260243721a" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/480994f5-fb18-4cce-be26-8d3e594a145e" />
-<img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/2a922fb0-ad62-4dd5-af81-909f7863fe04" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/631c67ca-158c-4275-894b-05a5babe4b8c" />
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/f2609203-ceac-415c-bc2c-7da8f098a10e" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/8a69fbfb-dc7d-449d-8c9f-21c0d795da1c" />
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/67e65a55-049e-4a8d-8563-6d32d60f3611" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/19cb5abb-66c3-4dad-ab7d-70014740f106" />
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/cdf0645b-1114-4403-b747-e5260243721a" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/480994f5-fb18-4cce-be26-8d3e594a145e" />
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/2a922fb0-ad62-4dd5-af81-909f7863fe04" /> <img width="400" height="333" alt="image" src="https://github.com/user-attachments/assets/631c67ca-158c-4275-894b-05a5babe4b8c" />
 
 Note: all of the stylized images were produced by me (using this repo), credits for original image artists are given bellow.
 
